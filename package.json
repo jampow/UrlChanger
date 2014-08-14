@@ -1,15 +1,12 @@
 {
   "name": "urlChangeOnScroll",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A module that changes the url path based on element attribute",
   "main": "server.js",
-  "dependencies": {
-    "livereload": "^0.3.4",
-    "express": "^4.8.3"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "express": "^4.8.3",
-    "livereload": "^0.3.4"
+    "gulp": "^3.8.7",
+    "gulp-webserver": "^0.6.0"
   },
   "scripts": {
     "test": "mocha",
