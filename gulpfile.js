@@ -26,3 +26,14 @@ gulp.task( 'webserver', function(){
 			fallback: 'index.html'
 		}));
 });
+
+gulp.task( 'test', function(){
+	gulp.src( 'test' )
+		.pipe( webserver({
+			livereload: false,
+			directoryListing: true,
+			open: true,
+			port: 4000,
+			fallback: 'test.html'
+		}));
+});

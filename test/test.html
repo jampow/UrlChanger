@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tests</title>
+	<link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.15.0.css">
+</head>
+<body>
+	<div id="qunit"></div>
+	<div id="qunit-fixture"></div>
+
+	<script type="text/javascript" src="http://code.jquery.com/qunit/qunit-1.15.0.js"></script>
+	<script type="text/javascript">
+		QUnit.test( "native functionalities", function( assert ) {
+
+			assert.ok( 'querySelectorAll' in document, "document has querySelectorAll property" );
+
+			assert.ok( window.hasOwnProperty( 'scrollY' ), "window has scrollY property" );
+
+			var el = document.getElementById( 'qunit' );
+			assert.ok( 'getBoundingClientRect' in el, "element has getBoundingClientRect property" );
+
+			assert.ok( 'dataset' in el, "element has dataset property" );
+
+			assert.ok( window.hasOwnProperty( 'history' ), "window has history API" );
+
+		});
+
+	</script>
+</body>
+</html>
