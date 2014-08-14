@@ -30,5 +30,4 @@ Call the lib and call the init method
 1. Test! Test! Test!
 2. Test in many browsers
 3. Get working in touch devices
-4. Provide minified file
 5. Change the initial configs passing a json to init

@@ -1,11 +1,14 @@
 {
   "name": "urlChangeOnScroll",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A module that changes the url path based on element attribute",
   "main": "server.js",
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.8.7",
+    "gulp-concat": "^2.3.4",
+    "gulp-sourcemaps": "^1.1.1",
+    "gulp-uglify": "^0.3.1",
     "gulp-webserver": "^0.6.0"
   },
   "scripts": {
