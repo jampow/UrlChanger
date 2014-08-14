@@ -1,0 +1,32 @@
+{
+  "name": "urlChangeOnScroll",
+  "version": "1.0.0",
+  "description": "A module that changes the url path based on element attribute",
+  "main": "server.js",
+  "dependencies": {
+    "livereload": "^0.3.4",
+    "express": "^4.8.3"
+  },
+  "devDependencies": {
+    "express": "^4.8.3",
+    "livereload": "^0.3.4"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jampow/UrlChanger.git"
+  },
+  "keywords": [
+    "change",
+    "url"
+  ],
+  "author": "Gianpaulo Malagrino Soares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jampow/UrlChanger/issues"
+  },
+  "homepage": "https://github.com/jampow/UrlChanger"
+}
