@@ -22,6 +22,7 @@ gulp.task( 'webserver', function(){
 			livereload: true,
 			directoryListing: true,
 			open: true,
+			host: '0.0.0.0',
 			port: 3000,
 			fallback: 'index.html'
 		}));
@@ -33,6 +34,7 @@ gulp.task( 'test', function(){
 			livereload: false,
 			directoryListing: true,
 			open: true,
+			host: '0.0.0.0',
 			port: 4000,
 			fallback: 'test.html'
 		}));
